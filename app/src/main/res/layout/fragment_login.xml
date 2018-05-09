@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b78ae7"
+    tools:context="com.ramirez.labo6.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="Iniciar Sesion" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:gravity="center"/>
+
+     <EditText
+         android:layout_margin="30dp"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:text="Contraseña"
+         android:gravity="center"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:background="@color/colorPrimary"
+         android:text="Aceptar"/>
+ </LinearLayout>
+</FrameLayout>
